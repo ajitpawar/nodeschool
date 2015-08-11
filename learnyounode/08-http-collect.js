@@ -1,5 +1,5 @@
 var http = require('http'),
-    bl = require('bl'),   // BufferList
+    bl = require('bl'),   // BufferList module. npm install bl
     url = process.argv[2];
 
 http.get(url, function(res) {
